@@ -11,6 +11,7 @@ lost_ingredient = 'Pastrami'
 # use List > Filter > lambda to circumvent cases sensitivity
 sandwich_orders = list(filter(lambda lost_ingredient: lost_ingredient.lower()!= 'pastrami',sandwich_orders))
 
+# this is a comment for testing
 
 while sandwich_orders:
     current_order = sandwich_orders.pop()
